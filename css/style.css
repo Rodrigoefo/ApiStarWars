@@ -1,0 +1,104 @@
+body{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+.fondo {
+  background-image: url("../img/fondoStarWar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  background-position: center;
+  display: block;
+
+
+}
+
+ #star{
+  display: block;
+  font-size: 6em;
+  color: white;
+  font-family: 'arial';
+  font-weight: bold;
+  position: absolute;
+  top:40%;
+  left: 10%;
+
+
+}
+
+ #enci{
+  display: block;
+  font-size: 3em;
+  color: white;
+  font-family: "Arial";
+  position: absolute;
+  top:57%;
+  left: 10%;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid #24262;
+  z-index: 1;
+  font-size: 1em;
+  font-family: "arial";
+  }
+
+  .breath{
+    width: 140px;
+    height: 150px;
+    position: absolute;
+    top: 15%;
+    left:55%;
+    background-color: rgba(0, 0, 0, 0.0);
+    z-index: 1;
+  }
+
+  .card{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 30%;
+
+  }
+
+  .fondoHome{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 20px;
+    text-align: center;
+  }
+
+
+@media (max-width: 600px) {
+
+   #star{
+    display: block;
+    font-size: 4em;
+    color: white;
+    font-family: "arial";
+    position: absolute;
+    top:50%;
+    left: 10%;
+
+  }
+
+   #enci{
+    display: block;
+    font-size: 2em;
+    color: white;
+    font-family: "Arial";
+    position: absolute;
+    top:61%;
+    left: 10%;
+  }
+
+  .card{
+    display: block;
+    width: 100%;
+
+
+}
